@@ -11,7 +11,7 @@
 - gach dau dong 2
 
 
-```javascript
+```js
 
 console.log("123");
 
