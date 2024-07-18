@@ -1,0 +1,4 @@
+Sự khác biệt giữa throw Error(‘msg’) so với throw new Error(‘msg’) là gì?
+
+-new Error('msg'):sử dụng 'new' là cứ pháp chuẩn ,rõ ràng cho người đọc 1 đối tượng lỗi mới đang được tạo ra 
+-Error('msg') :ko rõ ràng bằng cách sử dụng 'new' 

@@ -1,0 +1,2 @@
+IIFEs (Immediately Invoked Function Expressions) là các biểu thức đc định nghĩa và thực thi ngay lập tức sau khi chúng đc tạo ra
+=>Để tạo ra 1 phạm vi cục bộ ,tránh xung đột tên biến ,giúp mã sạch có tổ chức 

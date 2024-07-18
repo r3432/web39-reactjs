@@ -1,0 +1,5 @@
+Hãy định nghĩa một Higher-Order Function?
+
+*Higher-Order Function là 1 hàm bậc cao có thể làm 1 trong 2 việc :
+- Nhận 1 hoặc nhiều hàm làm tham số
+- Trả về hàm khác làm kết quả

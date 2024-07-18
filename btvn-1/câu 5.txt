@@ -1,0 +1,4 @@
+Giải thích sự khác biệt giữa “undefined” và “not defined” trong JavaScript?
+
+-undefined:là 1 giá trị đc gán tự động cho biến đã đc khai báo nhưng chưa gán giá trị 
+-not defined:là lỗi khi cố gắng truy cập vào 1 biến chưa đc khai báo 

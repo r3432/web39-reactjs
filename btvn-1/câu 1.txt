@@ -1,0 +1,29 @@
+Câu 1:Trình bày sự khác biệt giữa ES5 và ES6?
+
+*Khai báo biến:
+-ES5:Sử dụng 'var' để khai báo biến 
+-ES6:thêm 2 từ khóa 'let' và 'const' để khai bóa biến (let:dùng để khai báo phạm vi trong khối ,const:dùng khai báo hằng số );
+
+*Arrow function(hàm mũi tên)
+-ES5: Sử dụng từ khóa function để khai báo hàm
+-ES6:dùng cú pháp mũi tên '=>' để khai báo hàm,giúp cho mã ngắn gọn và giữ nguyên ngữ cảnh this 
+
+* Template Literals(Chuỗi ký tự mẫu)
+-ES5:sử dụng chuỗi ký tự bình thường với dấu ngoặc kép hoặc dấu nháy đơn
+-ES6:sử dụng template literals với dấu backtick (`)  ,cho phép nhúng biểu thức bên trong chuỗi bằng '${}'
+
+*Classes
+-ES5:ko có cú pháp lớp ,phải sử dụng hàm và prototype để tạp lớp
+-ES6: sử dụng trực tiếp cú pháp class giúp định nghĩa lớp dễ hơn.
+
+*Modules (Mô-đun):
+-ES5:ko hỗ trợ module,phải sử dụng các thư viện CommonJS,AMD
+-ES6:Hỗ trợ module chính thức với cú pháp 'import:nhập vào' và 'export:xuất ra'
+
+*Destructuring (Phá vỡ cấu trúc):
+-ES5:ko có tính năng này
+-ES6:cho phép phá vỡ cấu trúc mảng và đối tượng để gán giá trị dễ dàng 
+
+*Promises (Lời hứa):
+-ES5:sử dụng callback để xử lý bất đồng bộ
+-ES6:sử dụng promise để xử lý bất đồng bộ dễ dàng hơn ,tránh callback hell 
