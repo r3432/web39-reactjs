@@ -1,0 +1,22 @@
+Ưu điểm của ReactJS là gì?
+
+1.Virtual DOM:React sử dụng 1 bản sao của DOM để tối ưu hóa quá trình cập nhật gaio diện .Khi trangj thaias của ứng dụng thay đổi React sẽ cập nhật Virtual DOM trước, sau đó so sánh với DOM thực tế và chỉ cập nhật các phần thay đổi, giúp cải thiện hiệu suất.
+
+2.Component-Based Architecture:cho phép xây dựng giao diện người dùng bằng cách chia nhỏ các thành phần (components )độc lập ,có thể tái sử dụng .Điều này giúp mã nguồn trở nên sạch sẽ, dễ quản lý và bảo trì.
+
+3.JSX:JSX là một cú pháp mở rộng cho phép bạn viết các phần tử HTML trong JavaScript. JSX giúp mã nguồn trở nên trực quan và dễ đọc hơn, đồng thời giúp tích hợp chặt chẽ logic JavaScript với giao diện người dùng
+
+4.One-Way Data Binding:Dữ liệu trong React được truyền từ cha đến con, làm cho luồng dữ liệu dễ hiểu và dễ dự đoán hơn. Điều này giúp việc quản lý trạng thái của ứng dụng trở nên đơn giản và dễ kiểm soát.
+
+5.Strong Community Support:React có một cộng đồng lớn và năng động, cung cấp rất nhiều tài liệu, hướng dẫn và các công cụ hỗ trợ. Điều này giúp dễ dàng tìm kiếm giải pháp và học hỏi khi gặp phải vấn đề
+
+6.Ecosystem:React có một hệ sinh thái phong phú với nhiều thư viện và công cụ hỗ trợ, chẳng hạn như Redux (quản lý trạng thái), React Router (điều hướng), và nhiều thư viện UI khác. Điều này giúp phát triển ứng dụng nhanh chóng và hiệu quả.
+
+
+7.Performance Optimization:React cung cấp các công cụ và phương pháp tối ưu hóa hiệu suất, chẳng hạn như PureComponent, memo, và useMemo, giúp giảm thiểu việc render lại không cần thiết và tối ưu hóa hiệu suất ứng dụng.
+
+8.Server-Side Rendering (SSR):React hỗ trợ render trên server, giúp cải thiện tốc độ tải trang và SEO cho các ứng dụng web.
+
+9.Mobile Development with React Native:Kiến thức về React có thể được sử dụng để phát triển ứng dụng di động bằng React Native. Điều này giúp tận dụng kiến thức và mã nguồn giữa ứng dụng web và ứng dụng di động.
+
+10.Backward Compatibility:React duy trì sự tương thích ngược với các phiên bản cũ, giúp dễ dàng nâng cấp mà không gặp phải nhiều vấn đề về tương thích.

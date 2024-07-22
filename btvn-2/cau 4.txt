@@ -1,0 +1,20 @@
+Phân biệt Real DOM và Virtual DOM ?
+
+1.Real DOM
+-Định nghĩa: Real DOM (Document Object Model) là một mô hình cấu trúc tài liệu mà trình duyệt web sử dụng để hiển thị các trang web. Nó đại diện cho cấu trúc của tài liệu HTML hoặc XML dưới dạng cây (tree).
+
+-Hiệu suất: Việc cập nhật Real DOM rất chậm, đặc biệt khi có nhiều thay đổi đồng thời, vì mỗi lần cập nhật cần phải thao tác với nhiều phần tử của cây DOM và thực hiện việc render lại trang.
+
+-Trực tiếp tương tác với trình duyệt: Real DOM trực tiếp tương tác với trình duyệt để hiển thị nội dung và xử lý sự kiện.
+
+-Quản lý trạng thái: Việc quản lý trạng thái phức tạp và có thể gây khó khăn khi có nhiều thành phần (components) thay đổi đồng thời.
+
+
+2.Virtual DOM
+-Định nghĩa: Virtual DOM là một bản sao ảo của Real DOM, được lưu trữ trong bộ nhớ và được React sử dụng để tối ưu hóa quá trình cập nhật giao diện người dùng. Virtual DOM là một khái niệm trung gian giữa mã nguồn và Real DOM.
+
+- Hiệu suất: Việc cập nhật Virtual DOM nhanh hơn rất nhiều so với Real DOM. Khi trạng thái của ứng dụng thay đổi, React sẽ cập nhật Virtual DOM trước, sau đó so sánh Virtual DOM với Real DOM (quá trình này gọi là "reconciliation") và chỉ áp dụng những thay đổi cần thiết lên Real DOM, giảm thiểu số lượng thao tác và render lại.
+
+-Gián tiếp tương tác với trình duyệt: Virtual DOM không tương tác trực tiếp với trình duyệt mà thông qua quá trình so sánh và cập nhật Real DOM.
+
+- Quản lý trạng thái: Việc quản lý trạng thái trở nên dễ dàng và hiệu quả hơn, vì React chỉ cần cập nhật những phần thay đổi trong Virtual DOM và sau đó đồng bộ với Real DOM.

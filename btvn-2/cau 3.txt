@@ -1,0 +1,31 @@
+Các tính năng chính của ReactJS là gì?
+
+1.Component-Based Architecture:cho phép xây dựng giao diện người dùng bằng cách chia nhỏ các thành phần (components )độc lập ,có thể tái sử dụng .Điều này giúp mã nguồn trở nên sạch sẽ, dễ quản lý và bảo trì.
+
+2.Virtual DOM:React sử dụng 1 bản sao của DOM để tối ưu hóa quá trình cập nhật gaio diện .Khi trangj thaias của ứng dụng thay đổi React sẽ cập nhật Virtual DOM trước, sau đó so sánh với DOM thực tế và chỉ cập nhật các phần thay đổi, giúp cải thiện hiệu suất.
+
+3.JSX:JSX là một cú pháp mở rộng cho phép bạn viết các phần tử HTML trong JavaScript. JSX giúp mã nguồn trở nên trực quan và dễ đọc hơn, đồng thời giúp tích hợp chặt chẽ logic JavaScript với giao diện người dùng
+
+4.One-Way Data Binding:Dữ liệu trong React được truyền từ cha đến con, làm cho luồng dữ liệu dễ hiểu và dễ dự đoán hơn. Điều này giúp việc quản lý trạng thái của ứng dụng trở nên đơn giản và dễ kiểm soát.
+
+5.State and Props:
+
+- State: Trạng thái là đối tượng lưu trữ dữ liệu động của một thành phần, có thể thay đổi theo thời gian hoặc theo hành động của người dùng.
+- Props: Props là các tham số được truyền từ thành phần cha đến thành phần con, cho phép bạn truyền dữ liệu và các hàm giữa các thành phần.
+Lifecycle Methods:
+
+React cung cấp các phương thức vòng đời (lifecycle methods) để bạn có thể kiểm soát và quản lý các giai đoạn khác nhau trong vòng đời của một thành phần, chẳng hạn như khi thành phần được tạo ra, cập nhật, hoặc bị hủy bỏ.
+
+6.Hooks: là một tính năng mới của React cho phép bạn sử dụng trạng thái và các tính năng khác của React mà không cần viết các thành phần dạng lớp (class components). Các hook phổ biến bao gồm useState, useEffect, useContext, v.v.
+
+7.Context API: cho phép bạn truyền dữ liệu qua nhiều cấp của cây thành phần mà không cần phải truyền props xuống từng cấp một. Điều này giúp giải quyết vấn đề "prop drilling" khi bạn cần truyền dữ liệu qua nhiều thành phần lồng nhau.
+
+
+8.Server-Side Rendering (SSR):React hỗ trợ render trên server, giúp cải thiện tốc độ tải trang và SEO cho các ứng dụng web. Điều này được thực hiện thông qua các công cụ như Next.js.
+
+9.React Router:React Router là một thư viện điều hướng mạnh mẽ cho các ứng dụng React, cho phép bạn quản lý các tuyến đường (routes) và điều hướng giữa các trang hoặc thành phần khác nhau trong ứng dụng.
+React Native:
+
+10.React Native cho phép bạn sử dụng kiến thức và mã nguồn React để phát triển ứng dụng di động cho cả iOS và Android, giúp tiết kiệm thời gian và tài nguyên phát triển.
+
+11.Unidirectional Data Flow:dữ liệu trong React chảy theo một hướng từ trên xuống dưới (top-down), làm cho ứng dụng dễ kiểm soát hơn và giúp dễ dàng gỡ lỗi và theo dõi luồng dữ liệu.

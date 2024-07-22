@@ -1,0 +1,6 @@
+Làm thế nào để viết ghi chú (comments) trong ReactJS?
+-Trong JSX : Bằng cách sử dụng cú pháp {/* comment */}
+- Bên ngoài JSX: sử dụng / / cho 1 dòng và /*  */ cho nhiều dòng 
+
+
+JSX (JavaScript XML) là một cú pháp mở rộng của JavaScript,đc sử sử dụng với react để mô tả UI
