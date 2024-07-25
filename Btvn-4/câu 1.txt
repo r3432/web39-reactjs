@@ -1,0 +1,2 @@
+ Props trong React là gì?
+ - là cách truyền dữ liệu từ component cha xuống component con ,Props cho phép  truyền giá trị từ component sang component khác để tái sử dụng 1 cách linh hoạt 

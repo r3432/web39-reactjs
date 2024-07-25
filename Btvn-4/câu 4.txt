@@ -1,0 +1,11 @@
+Sự khác biệt giữa “Element” và “Component” trong React?
+
+ELEMENT
+- là đơn vị nhỏ nhất trong React
+- Mô tả những gì muốn hiển thị lên màn hình như thẻ <div>,<span>
+- ko thay đổi element,khi muốn thay đổi giao diện thì cần tạo lại mới element 
+
+Component 
+ -LÀ 1 khối xây dựng lớn hơn trong React có thể chứa 1 hoặc nhiều element 
+ -Component là 1 hàm hoặc class trả về một React Element. 
+ - Component có thể chứa logic,trạng thái ,sử dụng các phương thức vòng đời để kiểm soát quá trình render và cập nhật giao diện người dùng.

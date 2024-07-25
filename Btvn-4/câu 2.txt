@@ -1,0 +1,8 @@
+Tại sao cần viết hoa các component?
+
+1.Phân biệt với các thẻ HTML gốc ( ví dụ : <div>,<h1>);
+
+2.Tuân theo quy ước cộng đồng : giúp viết mã dễ hiểu ,dễ đọc 
+
+3.Đảm bảo hoạt động chính xác trong React:vì React quy ước viết hoa nếu viết thường sẽ không nhận hoặc bị lỗi.
+

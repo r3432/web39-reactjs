@@ -1,0 +1,2 @@
+Fragment là gì?-là 1 thành phần đc sử dụng để nhóm nhiều phần tử cong lại mà ko cần thêm 1 phần tử DOM ko cần thiết vào cây DOM 
+=>Tránh làm tăng số phần tử ko cần thiết ,giúp cây DOM nhẹ hơn ,dễ quản lý 
