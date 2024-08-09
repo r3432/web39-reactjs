@@ -1,0 +1,7 @@
+Điểm mấu chốt (mạnh nhất) của Redux là gì?
+
+-Điểm mấu chốt và mạnh nhất của Redux là việc quản lý trạng thái tập trung và dự đoán được. 
+
+1. Trạng thái tập trung: Toàn bộ trạng thái của ứng dụng được lưu trữ trong một store duy nhất. Điều này giúp bạn dễ dàng quản lý, theo dõi và kiểm soát toàn bộ trạng thái của ứng dụng từ một nơi duy nhất.
+
+2. Dự đoán được: Với Redux, trạng thái chỉ thay đổi theo cách có thể dự đoán được khi một hành động (action) được gửi đi và xử lý bởi các reducers. Reducers là những hàm thuần túy (pure functions), nghĩa là với cùng một input (trạng thái hiện tại và action), chúng sẽ luôn trả về cùng một kết quả (trạng thái mới). Điều này giúp bạn dễ dàng tái hiện lại lỗi, debug và kiểm thử ứng dụng.

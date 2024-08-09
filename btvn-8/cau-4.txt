@@ -1,0 +1,3 @@
+Redux Thunk được sử dụng để làm gì?
+
+Redux Thunk là một middleware cho phép  viết các action creators trả về một hàm thay vì trả về một đối tượng action thuần túy. Nhờ đó,  có thể thực hiện các tác vụ bất đồng bộ, như gọi API hoặc thực hiện logic phức tạp, trước khi dispatch các action thực sự để thay đổi state.

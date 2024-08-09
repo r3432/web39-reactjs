@@ -1,0 +1,7 @@
+State được lưu ở đâu trong ứng dụng React + Redux?
+
+- Trạng thái (state) đc lưu trữ ở store trung tâm
+
++ Redux Store: Toàn bộ trạng thái của ứng dụng được lưu trữ trong một đối tượng duy nhất gọi là store. Store này được tạo ra bằng cách sử dụng hàm createStore từ Redux.
+
++ Reducers: Store không tự động thay đổi. Để thay đổi trạng thái, phải sử dụng các reducers. Reducers là các hàm nhận vào trạng thái hiện tại và một action, sau đó trả về trạng thái mới dựa trên hành động đó.

@@ -1,0 +1,12 @@
+Các middleware thường được chọn để xử lý các lời gọi bất đồng bộ trong Redux là gì?
+
+1. Redux Thunk: là middleware được sử dụng rộng rãi nhất để xử lý logic bất đồng bộ trong Redux. Nó cho phép bạn viết các action creators trả về một hàm thay vì một action. Hàm này có thể thực hiện các tác vụ bất đồng bộ như gọi API, sau đó dispatch các action khác dựa trên kết quả nhận được.
+Ví dụ: Bạn có thể dispatch một action để bắt đầu quá trình tải dữ liệu, và sau khi dữ liệu được tải thành công, dispatch một action khác để lưu dữ liệu vào store.
+Redux Saga:
+
+2. Redux Saga là middleware mạnh mẽ hơn cho phép quản lý các hiệu ứng phụ (side effects) trong ứng dụng Redux một cách hiệu quả và dễ dàng. Nó sử dụng các hàm generator trong JavaScript để điều khiển các flow bất đồng bộ, chẳng hạn như gọi API, xử lý các tác vụ phức tạp, hoặc làm việc với thời gian chờ (delay).
+Redux Saga thích hợp cho các ứng dụng lớn, nơi mà các tác vụ bất đồng bộ có thể phức tạp và cần được quản lý chặt chẽ.
+Redux Observable:
+
+3. Redux Observable là một middleware khác được xây dựng dựa trên RxJS. Nó cho phép bạn xử lý các action và thực hiện các tác vụ bất đồng bộ bằng cách sử dụng các observable (dòng sự kiện). Redux Observable phù hợp cho các ứng dụng phức tạp hoặc khi bạn đã quen thuộc với lập trình reactive.
+Với Redux Observable, bạn có thể dễ dàng kết hợp và quản lý nhiều luồng sự kiện bất đồng bộ trong ứng dụng.
